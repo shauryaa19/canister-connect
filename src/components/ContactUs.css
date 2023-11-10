@@ -1,0 +1,69 @@
+/* ContactUs.css */
+
+.contact-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-container p {
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .discord,
+  .internet-identity {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .discord a,
+  .internet-identity button {
+    display: block;
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .discord a {
+    background-color: #7289DA;
+  }
+  
+  .discord a:hover {
+    background-color: #5865A1;
+  }
+  
+  .internet-identity button {
+    background-color: #007bff;
+  }
+  
+  .internet-identity button:hover {
+    background-color: #0056b3;
+  }
+  
